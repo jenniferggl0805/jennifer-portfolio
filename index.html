@@ -1,0 +1,490 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de Jennifer García. Desarrollo de software, automatización e inteligencia artificial.">
+  <title>Jennifer García | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+  <!-- PORTADA DE BIENVENIDA -->
+  <section class="welcome-screen" id="welcome">
+    <div class="welcome-top">
+      <span>JG. / PORTFOLIO</span>
+      <span>2026</span>
+    </div>
+
+    <main class="welcome-content">
+      <div class="orbit-symbol" aria-hidden="true">
+        <div class="planet"></div>
+        <div class="orbit-ring"></div>
+        <div class="orbit-dot"></div>
+      </div>
+
+      <p class="eyebrow">PORTAFOLIO PERSONAL</p>
+      <h1>Jennifer García<span>.</span></h1>
+      <p class="welcome-subtitle">
+        Software Developer · AI & Automation
+      </p>
+
+      <button class="enter-button" id="enterButton">
+        <span data-es="Ingresar" data-en="Enter">Ingresar</span>
+        <span class="button-arrow">↗</span>
+      </button>
+    </main>
+
+    <div class="welcome-bottom">
+      <span>AGUASCALIENTES, MÉXICO</span>
+      <span>WELCOME TO MY DIGITAL SPACE</span>
+    </div>
+  </section>
+
+  <!-- PORTAFOLIO PRINCIPAL -->
+  <div class="portfolio hidden" id="portfolio">
+
+    <header class="site-header">
+      <a class="brand" href="#home">JG.</a>
+
+      <nav class="main-nav">
+        <a href="#about" data-es="Sobre mí" data-en="About">Sobre mí</a>
+        <a href="#projects" data-es="Proyectos" data-en="Projects">Proyectos</a>
+        <a href="#skills" data-es="Habilidades" data-en="Skills">Habilidades</a>
+        <a href="#contact" data-es="Contacto" data-en="Contact">Contacto</a>
+        <a href="#experience" data-es="Experiencia" data-en="Experience">Experiencia </a>
+
+      </nav>
+
+      <button class="language-button" id="languageButton">EN</button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <p class="eyebrow" data-es="HOLA, SOY JENNIFER" data-en="HELLO, I'M JENNIFER">
+          HOLA, SOY JENNIFER
+        </p>
+        <h2 data-es="Creo soluciones digitales para resolver problemas reales."
+            data-en="I build digital solutions to solve real-world problems.">
+          Creo soluciones digitales para resolver problemas reales.
+        </h2>
+        <p class="hero-description"
+           data-es="Ingeniera en Mecatrónica enfocada en desarrollo de software, automatización e inteligencia artificial."
+           data-en="Mechatronics Engineer focused on software development, automation and artificial intelligence.">
+          Ingeniera en Mecatrónica enfocada en desarrollo de software,
+          automatización e inteligencia artificial.
+        </p>
+        <a href="#projects" class="text-link"
+           data-es="Explorar proyectos ↗" data-en="Explore projects ↗">
+          Explorar proyectos ↗
+        </a>
+      </section>
+
+
+<section class="content-section" id="about">
+  <p class="eyebrow" data-es="01 / SOBRE MÍ" data-en="01 / ABOUT ME">
+    01 / SOBRE MÍ
+  </p>
+
+  <h2
+    data-es="Conecto tecnología, procesos y soluciones."
+    data-en="Connecting technology, processes and solutions."
+  >
+    Conecto tecnología, procesos y soluciones.
+  </h2>
+
+  <p
+    data-es="Soy Ingeniera en Mecatrónica con interés en el desarrollo de software, la automatización y la inteligencia artificial aplicada. He trabajado en herramientas para la gestión de información y procesos educativos y comerciales, utilizando Python, bases de datos y tecnologías web. Actualmente desarrollo proyectos propios y exploro nuevas formas de integrar inteligencia artificial en soluciones prácticas."
+    data-en="I am a Mechatronics Engineer interested in software development, automation and applied artificial intelligence. I have worked on tools for managing information and educational and business processes, using Python, databases and web technologies. I am currently developing independent projects and exploring new ways to integrate AI into practical solutions."
+  >
+    Soy Ingeniera en Mecatrónica con interés en el desarrollo de software,
+    la automatización y la inteligencia artificial aplicada. He trabajado
+    en herramientas para la gestión de información y procesos educativos
+    y comerciales, utilizando Python, bases de datos y tecnologías web.
+    Actualmente desarrollo proyectos propios y exploro nuevas formas de
+    integrar inteligencia artificial en soluciones prácticas.
+  </p>
+</section>
+
+
+      <section class="content-section" id="projects">
+        <p class="eyebrow" data-es="02 / PROYECTOS" data-en="02 / PROJECTS">02 / PROYECTOS</p>
+        <h2 data-es="Ideas que se convierten en soluciones."
+            data-en="Ideas turned into solutions.">
+          Ideas que se convierten en soluciones.
+        </h2>
+
+        
+<div class="project-grid">
+  <article class="project-card">
+    <span>01</span>
+    <h3>Funditags</h3>
+
+    <p
+      data-es="Sistema de gestión comercial desarrollado con programación orientada a objetos. Integra la administración de usuarios y roles, inventario y registro de ventas para un negocio de accesorios."
+      data-en="Commercial management system developed using object-oriented programming. It integrates user and role management, inventory, and sales tracking for an accessories business."
+    >
+      Sistema de gestión comercial desarrollado con programación orientada a objetos. Integra la administración de usuarios y roles, inventario y registro de ventas para un negocio de accesorios.
+    </p>
+
+    <small>Python · JavaScript · Supabase</small>
+    <p class="project-status"
+       data-es="En desarrollo"
+       data-en="In development">
+      En desarrollo
+    </p>
+  </article>
+
+  <article class="project-card">
+    <span>02</span>
+    <h3>Pixelitos LMS</h3>
+
+      <img
+  class="project-image"
+  src="assets/pixelitos-dashboard.png"
+  alt="Panel principal de Pixelitos LMS"
+/>
+
+    <p
+      data-es="Plataforma de gestión educativa con módulos administrativos y docentes. Permite gestionar estudiantes, grupos, asistencias y pagos; generar reportes financieros en PDF y Excel, y facilitar el seguimiento de pagos a las familias."
+      data-en="Educational management platform with administrative and teacher modules. It manages students, groups, attendance, and payments; generates financial reports in PDF and Excel; and facilitates payment follow-up with families."
+    >
+      Plataforma de gestión educativa con módulos administrativos y docentes. Permite gestionar estudiantes, grupos, asistencias y pagos; generar reportes financieros en PDF y Excel, y facilitar el seguimiento de pagos a las familias.
+    </p>
+
+    <small>JavaScript · Supabase</small>
+    <p class="project-status"
+       data-es="En desarrollo"
+       data-en="In development">
+      En desarrollo
+    </p>
+
+
+
+  </article>
+
+<!-- PROYECTO 3: ALGORITHMICS -->
+<article class="project-card">
+  <span>03</span>
+  <h3>Algorithmics | Data Management</h3>
+
+<img
+  class="project-image"
+  src="assets/algorithmics-dashboard.png"
+  alt="Vista anonimizada del sistema de gestión de estudiantes en Airtable"
+  loading="lazy"
+/>
+
+  <p
+    data-es="Sistema de gestión de información administrativa y educativa mediante Airtable. Utiliza bases de datos y automatizaciones para organizar registros y generar reportes mensuales."
+    data-en="Administrative and educational information management system built with Airtable. Uses databases and automations to organize records and generate monthly reports."
+  >
+    Sistema de gestión de información administrativa
+    y educativa mediante Airtable. Utiliza bases
+    de datos y automatizaciones para organizar
+    registros y generar reportes mensuales.
+  </p>
+
+  <small>Airtable · Database Management · Automation</small>
+
+  <p class="project-status"
+     data-es="Implementado"
+     data-en="Implemented">
+    Implementado
+  </p>
+</article>
+
+
+<!-- PROYECTO 4: FAPEM -->
+
+<!-- PROYECTO 4: FAPEM -->
+<article class="project-card">
+  <span>04</span>
+  <h3>FAPEM | AI Chatbot</h3>
+
+<img
+  class="project-image"
+  src="assets/fapem-chatbot.png"
+  alt="Chatbot con inteligencia artificial implementado para FAPEM"
+  loading="lazy"
+/>
+
+  <p
+    data-es="Implementación de un chatbot con inteligencia artificial mediante Chatbase para facilitar la consulta de información en un sitio web empresarial."
+    data-en="Implementation of an AI-powered chatbot using Chatbase to facilitate access to information on a business website."
+  >
+    Implementación de un chatbot con inteligencia
+    artificial mediante Chatbase para facilitar
+    la consulta de información en un sitio web
+    empresarial.
+  </p>
+
+  <small>Chatbase · Generative AI · Chatbots</small>
+
+  <p
+    class="project-status"
+    data-es="Implementado"
+    data-en="Implemented"
+  >
+    Implementado
+  </p>
+
+  <a
+    class="project-demo"
+    href="assets/fapem-chatbot.mp4"
+    target="_blank"
+    rel="noopener noreferrer"
+    data-es="Ver demostración ↗"
+    data-en="Watch demo ↗"
+  >
+    Ver demostración ↗
+  </a>
+</article>
+
+
+
+<!-- PROYECTO 5: CONAGRO -->
+<article class="project-card">
+  <span>05</span>
+  <h3>CONAGRO | Web & Data Integration</h3>
+
+<!-- Debajo del título de CONAGRO -->
+<img
+  class="project-image"
+  src="assets/LandingCONAGRO.png"
+  alt="Landing page de CONAGRO"
+  loading="lazy"
+/>
+
+
+
+  <p
+    data-es="Desarrollo de una página web informativa mediante Google Sites, integrando formularios de Google Forms con hojas de cálculo de Google Sheets para recopilar y organizar información."
+    data-en="Development of an informational website using Google Sites, integrating Google Forms with Google Sheets to collect and organize information."
+  >
+    Desarrollo de una página web informativa
+    mediante Google Sites, integrando formularios
+    de Google Forms con hojas de cálculo de
+    Google Sheets para recopilar y organizar información.
+  </p>
+
+  <small>Google Sites · Google Forms · Google Sheets</small>
+
+  <p class="project-status"
+     data-es="Desarrollado"
+     data-en="Developed">
+    Desarrollado
+  </p>
+
+  <!-- Después de la descripción y tecnologías -->
+<a
+  class="project-demo"
+  href="assets/LP-Conagro.mp4"
+  target="_blank"
+  rel="noopener noreferrer"
+  data-es="Ver demostración ↗"
+  data-en="Watch demo ↗"
+>
+  Ver demostración ↗
+</a>
+</article>
+
+
+</div>
+
+      
+<section class="content-section" id="skills">
+  <p class="eyebrow"
+     data-es="03 / HABILIDADES TÉCNICAS"
+     data-en="03 / TECHNICAL SKILLS">
+    03 / HABILIDADES TÉCNICAS
+  </p>
+
+  <h2
+    data-es="Tecnologías y herramientas."
+    data-en="Technologies and tools.">
+    Tecnologías y herramientas.
+  </h2>
+
+  <div class="skills-list">
+    <span>Python</span>
+    <span>JavaScript</span>
+    <span>HTML & CSS</span>
+    <span>SQL (básico)</span>
+    <span>Supabase</span>
+    <span>Airtable</span>
+    <span>Excel & Power Query</span>
+    <span>Claude Code</span>
+    <span>Chatbase</span>
+    <span>Git & GitHub</span>
+    <span>Google Workspace</span>
+    <span>Unity</span>
+  </div>
+</section>
+
+
+<!-- EXPERIENCIA PROFESIONAL -->
+<section class="content-section" id="experience">
+
+  <p class="eyebrow"
+     data-es="04 / EXPERIENCIA"
+     data-en="04 / EXPERIENCE">
+    04 / EXPERIENCIA
+  </p>
+
+  <h2
+    data-es="Mi trayectoria profesional."
+    data-en="My professional journey.">
+    Mi trayectoria profesional.
+  </h2>
+
+  <div class="experience-list">
+
+    <article class="experience-item">
+      <span class="experience-date">
+        2025 — Actualidad
+      </span>
+
+      <h3>Algorithmics Aguascalientes</h3>
+
+      <p class="experience-role"
+         data-es="Docencia en programación y soluciones tecnológicas"
+         data-en="Programming Education & Technology Solutions">
+        Docencia en programación y soluciones tecnológicas
+      </p>
+
+      <p
+        data-es="Impartición de cursos de programación y tecnologías digitales. Trabajo con herramientas de gestión de información, bases de datos y automatizaciones para apoyar procesos administrativos y educativos."
+        data-en="Teaching programming and digital technology courses. Working with information management tools, databases, and automations to support administrative and educational processes.">
+        Impartición de cursos de programación y tecnologías
+        digitales. Trabajo con herramientas de gestión de
+        información, bases de datos y automatizaciones para
+        apoyar procesos administrativos y educativos.
+      </p>
+    </article>
+
+    <article class="experience-item">
+      <span class="experience-date">
+        2023 — 2024
+      </span>
+
+      <h3>Orotex</h3>
+
+      <p class="experience-role"
+         data-es="Mejora Continua"
+         data-en="Continuous Improvement">
+        Mejora Continua
+      </p>
+
+      <p
+        data-es="Participación en actividades de mejora continua, análisis de procesos y seguimiento de oportunidades de optimización en un entorno industrial."
+        data-en="Participated in continuous improvement activities, process analysis, and identification of optimization opportunities in an industrial environment.">
+        Participación en actividades de mejora continua,
+        análisis de procesos y seguimiento de oportunidades
+        de optimización en un entorno industrial.
+      </p>
+    </article>
+
+    <article class="experience-item">
+      <span class="experience-date">
+        2023 — 2025
+      </span>
+
+      <h3>Tecnolochicas</h3>
+
+      <p class="experience-role"
+         data-es="Formación tecnológica"
+         data-en="Technology Education">
+        Formación tecnológica
+      </p>
+
+      <p
+        data-es="Participación en formación tecnológica y enseñanza de herramientas digitales, programación y desarrollo de proyectos con estudiantes."
+        data-en="Participated in technology education, teaching digital tools, programming, and project development to students.">
+        Participación en formación tecnológica y enseñanza
+        de herramientas digitales, programación y desarrollo
+        de proyectos con estudiantes.
+      </p>
+    </article>
+    <article class="experience-item">
+      <span class="experience-date">
+        2023 — 2026
+      </span>
+      </article>
+
+
+  </div>
+</section>
+
+
+<!-- CONTACTO -->
+<section class="content-section contact-section" id="contact">
+
+  <p class="eyebrow"
+     data-es="05 / CONTACTO"
+     data-en="05 / CONTACT">
+    05 / CONTACTO
+  </p>
+
+  <h2
+    data-es="Las buenas ideas comienzan con una conversación."
+    data-en="Great ideas start with a conversation.">
+    Las buenas ideas comienzan con una conversación.
+  </h2>
+
+  <p class="contact-description"
+     data-es="¿Tienes un proyecto o una oportunidad en mente? Me interesa colaborar en soluciones digitales, automatización e inteligencia artificial aplicada."
+     data-en="Have a project or opportunity in mind? I'm interested in collaborating on digital solutions, automation, and applied artificial intelligence.">
+    ¿Tienes un proyecto o una oportunidad en mente?
+    Me interesa colaborar en soluciones digitales,
+    automatización e inteligencia artificial aplicada.
+  </p>
+
+  <div class="contact-links">
+    <a href="mailto:jenniferggl0805@gmail.com">Email ↗</a>
+
+    <a href="https://github.com/jenniferggl0805"
+       target="_blank"
+       rel="noopener noreferrer">
+      GitHub ↗
+    </a>
+
+    <a href="https://www.linkedin.com/in/jennifer-garc%C3%ADa-3227172a8/"
+       target="_blank"
+       rel="noopener noreferrer">
+      LinkedIn ↗
+    </a>
+
+
+<a
+  href="assets/Jennifer_Garcia_CV.pdf?v=2"
+  target="_blank"
+  rel="noopener noreferrer"
+  data-es="Mi CV ↗"
+  data-en="My Resume ↗"
+>
+  Mi CV ↗
+</a>
+
+  </div>
+
+</section>
+
+
+    </main>
+
+    <footer>
+      <span>© 2026 Jennifer García</span>
+      <span>Designed & developed with curiosity.</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
